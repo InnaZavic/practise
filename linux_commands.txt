@@ -1,0 +1,22 @@
+1. pwd
+2. mkdir monday
+3. cd monday
+4. mkdir tuesday wednesday
+5. cd tuesday
+6. touch suzuki.txt mazda.txt audi.txt lada.json bmw.json   
+7. mkdir thursday friday saturday
+8. ls
+9. nano suzuki.txt
+10. 'Hello world' CTRL + O, CTRL+X
+12. cd ..
+13. mv bmw.json mazda.txt /home/inna/monday/wednesday/thursday
+ *(I am at tuesday folder)
+14. cp bmw.json mazda.txt /home/inna/monday
+15. find ./fraiday/*.txt
+16. grep "QA" suzuki.txt
+17. head -n3 suzuki.txt
+18. tail -n2 suzuki.txt
+20. date
+
+Задание*
+Curl https://api.quarantine.country/api/v1/regions
